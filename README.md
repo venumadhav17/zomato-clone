@@ -88,7 +88,7 @@ Create Components Using JSX
 Different Ways of writing Components
 ------------------------------------
 
-a) const Heading = () => (
+a) {/* const Heading = () => (
     <h1>Hello World!</h1>
 )
 
@@ -98,7 +98,7 @@ c) const Heading = () => {
     return (
         <h1>Hello World!</h1>
     )
-}
+} */}
 
 1. What is JSX?
 A. -> JSX is not an HTML Script Language It's like HTML like syntax (or) XML syntax.
