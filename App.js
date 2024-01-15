@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const heading = React.createElement("h1", {},"Hello world");
+const Heading = () => (
+    <h1>Hello</h1>,
+    <h2>Hi</h2>
+)
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(heading);
+root.render(<Heading/>);
